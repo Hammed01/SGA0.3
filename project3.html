@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<title>Headings</title>
+        <link href="style.css" type ="text/css" rel = "stylesheet"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+				@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+		color: #ffffff;
+        background: #413f3b url("https://preview.ibb.co/hqMgwR/bckground1.jpg");
+         background-size: 1780px 1980px;
+        background-repeat: no-repeat;
+}
+
+.head, .icon, .work{
+		text-align: center;
+		margin-top: 80px;
+			
+}
+
+h1, p{
+
+	font-family: 'Roboto', sans-serif;
+}
+i{
+  width: 60px;
+  height: 40px;  
+  color: white;
+}
+
+ #vr{border-right: 1px solid white;
+    height: 25px;
+
+    }
+  #vr2{border-right: 1px solid white;
+    height: 25px;
+
+    }
+.plus{
+  position: absolute;
+  right:10px;
+  top:20px;
+  z-index: -1;
+}
+
+li{
+    display: inline;
+    
+}
+
+input {
+        font-size: 120%;
+        color: #5a5854;
+        background-color: #f2f2f2;
+		border: 1px solid #bdbdbd;
+		border-radius: 5px;
+		padding: 5px 5px 5px 30px;
+		background-repeat: no-repeat;
+		background-position: 8px 9px;
+		display: block;
+		margin-bottom: 10px;}
+		input:focus, input:hover {
+        background-color: #ffffff;
+        border: 1px solid #b1e1e4;}
+        input#email {
+        background-image: url("email.png");}
+		input#twitter {
+		background-image: url("twitter.png");}
+        input#web {
+        background-image: url("web.png");}
+
+#slideAd {
+  width: 50px;
+  height: 50px;
+  background-color: #403c3b;
+  background-position: 10px center;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 25px 20px 10px 85px;
+  position: fixed;
+  bottom: 20px;
+  right: -235px;
+  text-transform: uppercase;}
+
+#footer {
+  background:none;
+  color: #fff;}
+
+.frame1{
+    
+    
+    margin-right: 40px;
+}
+
+
+#foot{
+    
+    color: red;
+     width: 20px;
+    height: 20px; 
+    
+}
+input[type="submit"] {
+				border: 1px solid #006633;
+				background-color: #fff;
+				color: #009966;
+				border-radius: 5px;
+				padding: 5px;
+				margin-top: 10px;}
+
+/* Small screen - acts like the app would */
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #403c3b;
+  }
+  #page {
+    max-width: 480px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+  h1{
+    background-image: url(../images/2xkinglogo.png);
+    background-size: 72px 72px;
+  }
+}
+
+
+		</style>
+
+	</head>
+	<body>	
+        <section class="plus">
+		<form id= "plus"action="#" method="get">
+		<input type="submit" value="Start a Project"/> 
+        <h4 style ="display: none"> The cost of a Project is Free</h4>
+		</form>
+            </section>
+		<header>	
+		<div class="head">
+		<h1>UI DIGITAL DESIGN</h1>
+        <p>Hi there my name is Hammed a 25 year old web designer <br /> in Lagos Nigeria Currently a Working at ****** but <br /> available for freelance.</p>
+		</div>
+		<hr width="10%">
+		</header>
+		<section class="icon">
+			<ul>
+			<li><a  class="hot" href="dribble.com/" target="_blank"><i id="vr" class= "fa  fa-dribbble" style="font-size:20px;"></i></a></li>
+			<li><a class =""href="twitter.com/oluwolley" target="_blank"><i  id="vr2" class="fa  fa-twitter" style="font-size:20px;"></i></a></li>
+			<li><a href="skype.com" target="_blank"><i class="fa  fa-skype" style="font-size:20px;"></i></a></li>
+			</ul>
+		</section>
+
+		<section>
+			<h3 class= "work"> Latest Work</h3>
+			<hr width="10%" >
+			</section>
+        
+        <div class="icon">
+        <ul>
+            <li class =" frame1"> <iframe width="403" height="300" src="https://image.ibb.co/j0nMwR/p1.jpg" border="2px" alt="My Recent Work"></iframe></li>
+            
+             <li class =" frame1"> <iframe width="400" height="300" src="https://image.ibb.co/fQWLqm/P5.png" border="2px" alt="My Recent Work"></iframe></li>
+            
+             <li class ="frame1"> <iframe width="400" height="300" src="https://image.ibb.co/eDO5O6/P6.jpg" border ="2px" alt="My Recent Work"></iframe></li>
+            </ul>
+        
+        </div>
+        <hr width="10%">
+       <footer class="icon">
+    
+           <h6 id="slideAd">with <i id="foot"class="fa fa-heart-o" style="font-size:20px;"></i> from Hamamed</h6>
+           <p id="footer"> &copy; 2017</p>
+        </footer>
+        
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>	
+        <script src="script.js"></script>
+	</body>
+</html>
+ 
+
+
+   
+
+
+    
